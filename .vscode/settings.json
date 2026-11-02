@@ -1,0 +1,23 @@
+{
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.tabCompletion": "off",
+  "editor.inlayHints.enabled": "off",
+  "[typescript][typescriptreact][javascript][javascriptreact]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false
+  }
+}
