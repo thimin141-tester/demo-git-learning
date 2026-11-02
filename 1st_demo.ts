@@ -42,8 +42,8 @@ test('Login and add to cart', async ({ page }) => {
     await expect(page.getByText('Your Cart')).toBeVisible();
     await expect(page.getByText('Sauce Labs Backpack')).toBeVisible();
     await expect(page.getByText('Sauce Labs Bike Light')).toBeVisible();
-    await expect(page.getByText('Sauce Labs Bolt T-Shirt')).toBeVisible();
-    await expect(page.getByText('Sauce Labs Fleece Jacket')).toBeVisible();
+    await expect(page.getByText('Sauce Labs Bolt T-Shirt')).click();
+    await expect(page.getByText('Sauce Labs Fleece Jacket')).click();
     await expect(page.getByText('Sauce Labs Onesie')).toBeVisible();
     await expect(page.getByText('Test.allTheThings() T-Shirt (Red)')).toBeVisible();
 
