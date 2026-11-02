@@ -46,4 +46,5 @@ test('Login and add to cart', async ({ page }) => {
     await expect(page.getByText('Sauce Labs Fleece Jacket')).toBeVisible();
     await expect(page.getByText('Sauce Labs Onesie')).toBeVisible();
     await expect(page.getByText('Test.allTheThings() T-Shirt (Red)')).toBeVisible();
+
 });
